@@ -27,11 +27,12 @@ def diff(f1path,f2path):
     return 0
 
 if __name__ == '__main__':
-'''
+    '''
     File1Path=r'c:\test\1.txt'
     File2Path=r'c:\test\2.txt'
     print (diff(File1Path, File2Path))
-'''
-    Commend = sys.argv[1]
-    if(Commend=='create'):
-        os.mkdir(sys.argv[2])
+    '''
+    commend = sys.argv[1]
+    if(commend=='create'):
+        pass
+        # os.mkdir(sys.argv[2])
